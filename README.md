@@ -12,11 +12,8 @@ Repository for CDP Mapping Systems summer 2025 course
 
 Visit the [01. Setting up your environment](Assignments/00_Getting_Started.md) tutorial notebook to set up your programming environment and get started with the course.
 
+## Assignment Submission Record
 
-
-\## Assignments Submission
-
-
-
-\- 07042025: Assignment 1 Loading and Visualing Submission > "./Assignments/01\_Loading\_Visualizing.ipynb" for your review.
+- 07042025: Assignment 1 Loading and Visualizing Submission > "./Assignments/01\_Loading\_Visualizing.ipynb" for your review.
+- 07102025: Assignment 2 Geoprocessing > "./Assignments/02_Geoprocessing.ipynb" for your review.
 
