@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1389892c34ea22d308fd5f8f5b4e4125 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1389892c34ea22d308fd5f8f5b4e4125" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1389892c34ea22d308fd5f8f5b4e4125 = L.map(
+                "map_1389892c34ea22d308fd5f8f5b4e4125",
+                {
+                    center: [43.07178, -89.393726],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7518fb9733b7ebbf2c1746f33175ff5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f7518fb9733b7ebbf2c1746f33175ff5.addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var marker_655302ff07e8dde754f8a522ae7f7705 = L.marker(
+                [43.07178, -89.393726],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_55eee4cab6dac1e34db10e24f5b902c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5d698d47fe7d8d6628ad3a3f434db72c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41246f12cd16c7384a4c6afc4660de1d = $(`<div id="html_41246f12cd16c7384a4c6afc4660de1d" style="width: 100.0%; height: 100.0%;">Home</div>`)[0];
+                popup_5d698d47fe7d8d6628ad3a3f434db72c.setContent(html_41246f12cd16c7384a4c6afc4660de1d);
+            
+        
+
+        marker_655302ff07e8dde754f8a522ae7f7705.bindPopup(popup_5d698d47fe7d8d6628ad3a3f434db72c)
+        ;
+
+        
+    
+    
+                marker_655302ff07e8dde754f8a522ae7f7705.setIcon(icon_55eee4cab6dac1e34db10e24f5b902c1);
+            
+    
+            var marker_3052898140ca8685453bd4feea3b7c79 = L.marker(
+                [43.0730022, -89.3976601],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_94bc6c3f963b9601ad2093662cce9c37 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0363538dc17a012d605e88bd0ab5e840 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7307c24e72cf57888c3e9eba8688cbd7 = $(`<div id="html_7307c24e72cf57888c3e9eba8688cbd7" style="width: 100.0%; height: 100.0%;">Fresh Madison Market<br/>Euclidean: 348m<br/>Network: 437m<br/>Centrality: 0.000798</div>`)[0];
+                popup_0363538dc17a012d605e88bd0ab5e840.setContent(html_7307c24e72cf57888c3e9eba8688cbd7);
+            
+        
+
+        marker_3052898140ca8685453bd4feea3b7c79.bindPopup(popup_0363538dc17a012d605e88bd0ab5e840)
+        ;
+
+        
+    
+    
+                marker_3052898140ca8685453bd4feea3b7c79.setIcon(icon_94bc6c3f963b9601ad2093662cce9c37);
+            
+    
+            var marker_c1999bb80a9aa0c3e0ce2d299ac57bc6 = L.marker(
+                [43.0749084, -89.3903663],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_bb2041086ff801d1b7c4f4e2dafbc396 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0ca12167458a3b0cff4f6619e4c8766a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_353998fcdf005decfec422db10766b0d = $(`<div id="html_353998fcdf005decfec422db10766b0d" style="width: 100.0%; height: 100.0%;">Triangle Market<br/>Euclidean: 442m<br/>Network: 481m<br/>Centrality: 0.000735</div>`)[0];
+                popup_0ca12167458a3b0cff4f6619e4c8766a.setContent(html_353998fcdf005decfec422db10766b0d);
+            
+        
+
+        marker_c1999bb80a9aa0c3e0ce2d299ac57bc6.bindPopup(popup_0ca12167458a3b0cff4f6619e4c8766a)
+        ;
+
+        
+    
+    
+                marker_c1999bb80a9aa0c3e0ce2d299ac57bc6.setIcon(icon_bb2041086ff801d1b7c4f4e2dafbc396);
+            
+    
+            var marker_d3bd1706d82176b0e453f5fe78b3cef1 = L.marker(
+                [43.0765361, -89.3939129],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_c226f9d1c5567395d17855ec19dc7edf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b3ff4391ce388de22d01b38a30786a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_390dd59e613c860829af1f94b4e7a111 = $(`<div id="html_390dd59e613c860829af1f94b4e7a111" style="width: 100.0%; height: 100.0%;">MacTaggart's Market<br/>Euclidean: 529m<br/>Network: 900m<br/>Centrality: 0.000670</div>`)[0];
+                popup_9b3ff4391ce388de22d01b38a30786a7.setContent(html_390dd59e613c860829af1f94b4e7a111);
+            
+        
+
+        marker_d3bd1706d82176b0e453f5fe78b3cef1.bindPopup(popup_9b3ff4391ce388de22d01b38a30786a7)
+        ;
+
+        
+    
+    
+                marker_d3bd1706d82176b0e453f5fe78b3cef1.setIcon(icon_c226f9d1c5567395d17855ec19dc7edf);
+            
+    
+            var marker_4a4f367efc12c33b5f180eaffbfe10a9 = L.marker(
+                [43.0719478, -89.408298],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_14dcb8383bf7388739b0810daaafb389 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b895e65b0667cdd27ced396f0c7f7973 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccbea44acd4ec5316c16cae5359f4a67 = $(`<div id="html_ccbea44acd4ec5316c16cae5359f4a67" style="width: 100.0%; height: 100.0%;">Badger Market<br/>Euclidean: 1187m<br/>Network: 1302m<br/>Centrality: 0.000707</div>`)[0];
+                popup_b895e65b0667cdd27ced396f0c7f7973.setContent(html_ccbea44acd4ec5316c16cae5359f4a67);
+            
+        
+
+        marker_4a4f367efc12c33b5f180eaffbfe10a9.bindPopup(popup_b895e65b0667cdd27ced396f0c7f7973)
+        ;
+
+        
+    
+    
+                marker_4a4f367efc12c33b5f180eaffbfe10a9.setIcon(icon_14dcb8383bf7388739b0810daaafb389);
+            
+    
+            var marker_784e5de70f099a752d02924ebf129ccf = L.marker(
+                [43.0698482, -89.4091871],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_ae8eeef020956ce7ecc357f9c8e34bc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5ae8c96d6cfa6f0561226bddeae1e4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_79652d8ee65d37756009133c74e8106e = $(`<div id="html_79652d8ee65d37756009133c74e8106e" style="width: 100.0%; height: 100.0%;">Kwik Trip<br/>Euclidean: 1277m<br/>Network: 1467m<br/>Centrality: 0.000696</div>`)[0];
+                popup_b5ae8c96d6cfa6f0561226bddeae1e4d.setContent(html_79652d8ee65d37756009133c74e8106e);
+            
+        
+
+        marker_784e5de70f099a752d02924ebf129ccf.bindPopup(popup_b5ae8c96d6cfa6f0561226bddeae1e4d)
+        ;
+
+        
+    
+    
+                marker_784e5de70f099a752d02924ebf129ccf.setIcon(icon_ae8eeef020956ce7ecc357f9c8e34bc7);
+            
+    
+            var marker_11ccbb36143cde13dcc267f748253302 = L.marker(
+                [43.0814796, -89.375034],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_166af4f2fc132b8510c2c2e50f4e03a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de8b2065e7b9d22f705f41882358f2da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be9f4a6be3e789b763f49a6a1ab3f040 = $(`<div id="html_be9f4a6be3e789b763f49a6a1ab3f040" style="width: 100.0%; height: 100.0%;">Festival Foods<br/>Euclidean: 1865m<br/>Network: 1980m<br/>Centrality: 0.000509</div>`)[0];
+                popup_de8b2065e7b9d22f705f41882358f2da.setContent(html_be9f4a6be3e789b763f49a6a1ab3f040);
+            
+        
+
+        marker_11ccbb36143cde13dcc267f748253302.bindPopup(popup_de8b2065e7b9d22f705f41882358f2da)
+        ;
+
+        
+    
+    
+                marker_11ccbb36143cde13dcc267f748253302.setIcon(icon_166af4f2fc132b8510c2c2e50f4e03a8);
+            
+    
+            var marker_4b7fddba1154bc40b1254620e9aa9406 = L.marker(
+                [43.0749114, -89.3910361],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_4103ed2a170008a222167cf66caf0224 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3223346342d5c687bf3391c6ff33c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_793dc41c74385e7029f4351a66e811f4 = $(`<div id="html_793dc41c74385e7029f4351a66e811f4" style="width: 100.0%; height: 100.0%;">Royal Mart<br/>Euclidean: 411m<br/>Network: 551m<br/>Centrality: 0.000714</div>`)[0];
+                popup_e3223346342d5c687bf3391c6ff33c92.setContent(html_793dc41c74385e7029f4351a66e811f4);
+            
+        
+
+        marker_4b7fddba1154bc40b1254620e9aa9406.bindPopup(popup_e3223346342d5c687bf3391c6ff33c92)
+        ;
+
+        
+    
+    
+                marker_4b7fddba1154bc40b1254620e9aa9406.setIcon(icon_4103ed2a170008a222167cf66caf0224);
+            
+    
+            var marker_a8d75076a73f122694360a15ba9b6257 = L.marker(
+                [43.0761715, -89.3995025],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_3fe0052ee45ec388097e88f159d24a11 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f246810d978ac88b630aa6e6e9195ad9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_08e09635e50b390a76df8866d0af21bc = $(`<div id="html_08e09635e50b390a76df8866d0af21bc" style="width: 100.0%; height: 100.0%;">Badger Market<br/>Euclidean: 678m<br/>Network: 892m<br/>Centrality: 0.000738</div>`)[0];
+                popup_f246810d978ac88b630aa6e6e9195ad9.setContent(html_08e09635e50b390a76df8866d0af21bc);
+            
+        
+
+        marker_a8d75076a73f122694360a15ba9b6257.bindPopup(popup_f246810d978ac88b630aa6e6e9195ad9)
+        ;
+
+        
+    
+    
+                marker_a8d75076a73f122694360a15ba9b6257.setIcon(icon_3fe0052ee45ec388097e88f159d24a11);
+            
+    
+            var marker_c7b9a4677e12e4f0d61d18a9893569b2 = L.marker(
+                [43.0556422, -89.3975558],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_b45ec5178c4e84750dd7776cb59bb79e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20482cb3679feaee43398276eb83778d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f564ac01ddd8ff0b30b3cd9e7ff6f6a = $(`<div id="html_7f564ac01ddd8ff0b30b3cd9e7ff6f6a" style="width: 100.0%; height: 100.0%;">Oriental Shop<br/>Euclidean: 1820m<br/>Network: 2341m<br/>Centrality: 0.000556</div>`)[0];
+                popup_20482cb3679feaee43398276eb83778d.setContent(html_7f564ac01ddd8ff0b30b3cd9e7ff6f6a);
+            
+        
+
+        marker_c7b9a4677e12e4f0d61d18a9893569b2.bindPopup(popup_20482cb3679feaee43398276eb83778d)
+        ;
+
+        
+    
+    
+                marker_c7b9a4677e12e4f0d61d18a9893569b2.setIcon(icon_b45ec5178c4e84750dd7776cb59bb79e);
+            
+    
+            var marker_7490a8be681a7802c402c5566fc0bc6b = L.marker(
+                [43.0695267, -89.3896946],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_2073c139e13029bec1273e2823a312f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18fe37129243fc8a92070148735f520c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27df60ad3e3ed5e701c48b6389321570 = $(`<div id="html_27df60ad3e3ed5e701c48b6389321570" style="width: 100.0%; height: 100.0%;">Bassett Food Mart<br/>Euclidean: 413m<br/>Network: 509m<br/>Centrality: 0.000754</div>`)[0];
+                popup_18fe37129243fc8a92070148735f520c.setContent(html_27df60ad3e3ed5e701c48b6389321570);
+            
+        
+
+        marker_7490a8be681a7802c402c5566fc0bc6b.bindPopup(popup_18fe37129243fc8a92070148735f520c)
+        ;
+
+        
+    
+    
+                marker_7490a8be681a7802c402c5566fc0bc6b.setIcon(icon_2073c139e13029bec1273e2823a312f9);
+            
+    
+            var marker_89453efd5d4eb88249df11e4cd58319c = L.marker(
+                [43.074504, -89.395937],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_4ff7b3bc665d564a50c77035595fc84c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_430ae5bc034001b85ee9c31761c06a70 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aeab9c66c4b0369734d854a135b7536d = $(`<div id="html_aeab9c66c4b0369734d854a135b7536d" style="width: 100.0%; height: 100.0%;">Frances Street Market<br/>Euclidean: 352m<br/>Network: 456m<br/>Centrality: 0.000767</div>`)[0];
+                popup_430ae5bc034001b85ee9c31761c06a70.setContent(html_aeab9c66c4b0369734d854a135b7536d);
+            
+        
+
+        marker_89453efd5d4eb88249df11e4cd58319c.bindPopup(popup_430ae5bc034001b85ee9c31761c06a70)
+        ;
+
+        
+    
+    
+                marker_89453efd5d4eb88249df11e4cd58319c.setIcon(icon_4ff7b3bc665d564a50c77035595fc84c);
+            
+    
+            var marker_3fb92c2e8d250e7c573fcfdce815512b = L.marker(
+                [43.0749196, -89.3913162],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_ff6c58cb93ef5443eed77f2e0707e296 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a87973efc3b05a0d2e55cc95b86d631b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_639ae09eaa80d83b82df537bfe746c5b = $(`<div id="html_639ae09eaa80d83b82df537bfe746c5b" style="width: 100.0%; height: 100.0%;">J&P Fresh Market<br/>Euclidean: 400m<br/>Network: 485m<br/>Centrality: 0.000739</div>`)[0];
+                popup_a87973efc3b05a0d2e55cc95b86d631b.setContent(html_639ae09eaa80d83b82df537bfe746c5b);
+            
+        
+
+        marker_3fb92c2e8d250e7c573fcfdce815512b.bindPopup(popup_a87973efc3b05a0d2e55cc95b86d631b)
+        ;
+
+        
+    
+    
+                marker_3fb92c2e8d250e7c573fcfdce815512b.setIcon(icon_ff6c58cb93ef5443eed77f2e0707e296);
+            
+    
+            var marker_51d9e8247cef80ffe2796b2609d0005f = L.marker(
+                [43.074784, -89.3972309],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_b322036ff975834944d7e49c5c47c491 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17bf2f69810cbb30620be95ccea48c8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a77b1882df40a7189f244456a8b5f641 = $(`<div id="html_a77b1882df40a7189f244456a8b5f641" style="width: 100.0%; height: 100.0%;">Pinkus Market<br/>Euclidean: 439m<br/>Network: 609m<br/>Centrality: 0.000772</div>`)[0];
+                popup_17bf2f69810cbb30620be95ccea48c8f.setContent(html_a77b1882df40a7189f244456a8b5f641);
+            
+        
+
+        marker_51d9e8247cef80ffe2796b2609d0005f.bindPopup(popup_17bf2f69810cbb30620be95ccea48c8f)
+        ;
+
+        
+    
+    
+                marker_51d9e8247cef80ffe2796b2609d0005f.setIcon(icon_b322036ff975834944d7e49c5c47c491);
+            
+    
+            var marker_c837ba3d8527af82d18c539fc3389cfb = L.marker(
+                [43.0639647, -89.4004684],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_3e0c393545a8c6e9dda85160c02ac8a7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_230501235f42c7277b6754d466ff05fb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17c7b53d49469eb7571e54ccadf6e06d = $(`<div id="html_17c7b53d49469eb7571e54ccadf6e06d" style="width: 100.0%; height: 100.0%;">Midway Foods Asian<br/>Euclidean: 1027m<br/>Network: 1320m<br/>Centrality: 0.000730</div>`)[0];
+                popup_230501235f42c7277b6754d466ff05fb.setContent(html_17c7b53d49469eb7571e54ccadf6e06d);
+            
+        
+
+        marker_c837ba3d8527af82d18c539fc3389cfb.bindPopup(popup_230501235f42c7277b6754d466ff05fb)
+        ;
+
+        
+    
+    
+                marker_c837ba3d8527af82d18c539fc3389cfb.setIcon(icon_3e0c393545a8c6e9dda85160c02ac8a7);
+            
+    
+            var marker_c811876b04d2719d5ef2610011f502ee = L.marker(
+                [43.0634607, -89.4013533],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_6949043af4688c00fc3567e79c528dec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a01c2bad5dc3d4107428f2a8ba49ab8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7956dfa34457b96c78ef79133e14fbff = $(`<div id="html_7956dfa34457b96c78ef79133e14fbff" style="width: 100.0%; height: 100.0%;">BP Shop<br/>Euclidean: 1114m<br/>Network: 1438m<br/>Centrality: 0.000733</div>`)[0];
+                popup_a01c2bad5dc3d4107428f2a8ba49ab8e.setContent(html_7956dfa34457b96c78ef79133e14fbff);
+            
+        
+
+        marker_c811876b04d2719d5ef2610011f502ee.bindPopup(popup_a01c2bad5dc3d4107428f2a8ba49ab8e)
+        ;
+
+        
+    
+    
+                marker_c811876b04d2719d5ef2610011f502ee.setIcon(icon_6949043af4688c00fc3567e79c528dec);
+            
+    
+            var marker_4e86b479e53d8f1f3c62624af04ecc30 = L.marker(
+                [43.0729139, -89.3905987],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_27bf32bfff2cc8569663e17a46e3c5b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7bee118d06be7427426f9cc730ea72d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcbb5be7fe2726f402ac5300cc67a12d = $(`<div id="html_dcbb5be7fe2726f402ac5300cc67a12d" style="width: 100.0%; height: 100.0%;">Capitol Centre Market<br/>Euclidean: 284m<br/>Network: 373m<br/>Centrality: 0.000757</div>`)[0];
+                popup_7bee118d06be7427426f9cc730ea72d8.setContent(html_dcbb5be7fe2726f402ac5300cc67a12d);
+            
+        
+
+        marker_4e86b479e53d8f1f3c62624af04ecc30.bindPopup(popup_7bee118d06be7427426f9cc730ea72d8)
+        ;
+
+        
+    
+    
+                marker_4e86b479e53d8f1f3c62624af04ecc30.setIcon(icon_27bf32bfff2cc8569663e17a46e3c5b6);
+            
+    
+            var marker_b6799058fc5a2c3f65d05ada58178b93 = L.marker(
+                [43.0803224, -89.3754338],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_7d27e6674155742e1387d729048bb094 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c925bf9ab2fd6e44c7670fa0745097ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a93c15d9811a202ce40beaf91c2bd504 = $(`<div id="html_a93c15d9811a202ce40beaf91c2bd504" style="width: 100.0%; height: 100.0%;">BP Shop<br/>Euclidean: 1766m<br/>Network: 1895m<br/>Centrality: 0.000521</div>`)[0];
+                popup_c925bf9ab2fd6e44c7670fa0745097ea.setContent(html_a93c15d9811a202ce40beaf91c2bd504);
+            
+        
+
+        marker_b6799058fc5a2c3f65d05ada58178b93.bindPopup(popup_c925bf9ab2fd6e44c7670fa0745097ea)
+        ;
+
+        
+    
+    
+                marker_b6799058fc5a2c3f65d05ada58178b93.setIcon(icon_7d27e6674155742e1387d729048bb094);
+            
+    
+            var marker_f9846ce226100be616ddb7f854ccc173 = L.marker(
+                [43.0791651, -89.3838994],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_f133322e288d9873d8c1a23f7c794014 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a658b604d5d5cfd3d11493de1e786e8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1fe8b77b0594ae2fb44269246927e7f9 = $(`<div id="html_1fe8b77b0594ae2fb44269246927e7f9" style="width: 100.0%; height: 100.0%;">Pinkus McBride Market & Deli<br/>Euclidean: 1146m<br/>Network: 1178m<br/>Centrality: 0.000618</div>`)[0];
+                popup_a658b604d5d5cfd3d11493de1e786e8b.setContent(html_1fe8b77b0594ae2fb44269246927e7f9);
+            
+        
+
+        marker_f9846ce226100be616ddb7f854ccc173.bindPopup(popup_a658b604d5d5cfd3d11493de1e786e8b)
+        ;
+
+        
+    
+    
+                marker_f9846ce226100be616ddb7f854ccc173.setIcon(icon_f133322e288d9873d8c1a23f7c794014);
+            
+    
+            var marker_36c8d83632be1a189e094de77bd8972c = L.marker(
+                [43.0673211, -89.4093445],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_b3304fff6db9ec769669d6f4e4604c9a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c4f374458931e35169124504b97e77fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_425c9fd40d45ab610f5c4ef5c08cc6a5 = $(`<div id="html_425c9fd40d45ab610f5c4ef5c08cc6a5" style="width: 100.0%; height: 100.0%;">Regent Street Mart<br/>Euclidean: 1365m<br/>Network: 1714m<br/>Centrality: 0.000682</div>`)[0];
+                popup_c4f374458931e35169124504b97e77fa.setContent(html_425c9fd40d45ab610f5c4ef5c08cc6a5);
+            
+        
+
+        marker_36c8d83632be1a189e094de77bd8972c.bindPopup(popup_c4f374458931e35169124504b97e77fa)
+        ;
+
+        
+    
+    
+                marker_36c8d83632be1a189e094de77bd8972c.setIcon(icon_b3304fff6db9ec769669d6f4e4604c9a);
+            
+    
+            var marker_199a2123f733d373defce7ccdfb84183 = L.marker(
+                [43.0746326, -89.3939411],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_0bc7ea3ff50e3792f88a7fe2be195f38 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b92f6d72c1ec3e32fc32a877f154b8e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_125a08d7ff2d1f0180d316502a90c9d3 = $(`<div id="html_125a08d7ff2d1f0180d316502a90c9d3" style="width: 100.0%; height: 100.0%;">Stop & Shop Grocery<br/>Euclidean: 317m<br/>Network: 505m<br/>Centrality: 0.000758</div>`)[0];
+                popup_b92f6d72c1ec3e32fc32a877f154b8e1.setContent(html_125a08d7ff2d1f0180d316502a90c9d3);
+            
+        
+
+        marker_199a2123f733d373defce7ccdfb84183.bindPopup(popup_b92f6d72c1ec3e32fc32a877f154b8e1)
+        ;
+
+        
+    
+    
+                marker_199a2123f733d373defce7ccdfb84183.setIcon(icon_0bc7ea3ff50e3792f88a7fe2be195f38);
+            
+    
+            var marker_7892a8831e459c58cb8b0f852fd64165 = L.marker(
+                [43.0572665, -89.3998329],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_00d7053ecadce23b928c69de65e39aa1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bdc3f12fae2c970bda16a59b25be0d23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c05d140b726df9047fe9a366313616e2 = $(`<div id="html_c05d140b726df9047fe9a366313616e2" style="width: 100.0%; height: 100.0%;">Shell Select<br/>Euclidean: 1687m<br/>Network: 2122m<br/>Centrality: 0.000596</div>`)[0];
+                popup_bdc3f12fae2c970bda16a59b25be0d23.setContent(html_c05d140b726df9047fe9a366313616e2);
+            
+        
+
+        marker_7892a8831e459c58cb8b0f852fd64165.bindPopup(popup_bdc3f12fae2c970bda16a59b25be0d23)
+        ;
+
+        
+    
+    
+                marker_7892a8831e459c58cb8b0f852fd64165.setIcon(icon_00d7053ecadce23b928c69de65e39aa1);
+            
+    
+            var marker_409b4940c8586ad95d380378073e6b9c = L.marker(
+                [43.078087, -89.3821186],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_90cd5bc299ba7178fe5b10b7ccb6dd60 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5c5c4b3a4eaf8da98c97a1b7730e0f49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eb3dcdfeb70b71f2192182e8a577451d = $(`<div id="html_eb3dcdfeb70b71f2192182e8a577451d" style="width: 100.0%; height: 100.0%;">Stop N Shop<br/>Euclidean: 1177m<br/>Network: 1324m<br/>Centrality: 0.000599</div>`)[0];
+                popup_5c5c4b3a4eaf8da98c97a1b7730e0f49.setContent(html_eb3dcdfeb70b71f2192182e8a577451d);
+            
+        
+
+        marker_409b4940c8586ad95d380378073e6b9c.bindPopup(popup_5c5c4b3a4eaf8da98c97a1b7730e0f49)
+        ;
+
+        
+    
+    
+                marker_409b4940c8586ad95d380378073e6b9c.setIcon(icon_90cd5bc299ba7178fe5b10b7ccb6dd60);
+            
+    
+            var marker_c707ca440e1cb77072ac178774404a63 = L.marker(
+                [43.0847559, -89.3762561],
+                {
+}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var icon_47ffc4869e6a430d83395910445c7b97 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99af678d3005c65db1ea3354da2c84d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68eaa938a0937b9cf70da1646cbd19be = $(`<div id="html_68eaa938a0937b9cf70da1646cbd19be" style="width: 100.0%; height: 100.0%;">Madison Food Mart<br/>Euclidean: 2025m<br/>Network: 2051m<br/>Centrality: 0.000477</div>`)[0];
+                popup_99af678d3005c65db1ea3354da2c84d8.setContent(html_68eaa938a0937b9cf70da1646cbd19be);
+            
+        
+
+        marker_c707ca440e1cb77072ac178774404a63.bindPopup(popup_99af678d3005c65db1ea3354da2c84d8)
+        ;
+
+        
+    
+    
+                marker_c707ca440e1cb77072ac178774404a63.setIcon(icon_47ffc4869e6a430d83395910445c7b97);
+            
+    
+            var poly_line_4dc2ef915a37f23f0b91e410770d422e = L.polyline(
+                [[43.0718481, -89.3938334], [43.0719125, -89.3938756], [43.0719105, -89.3942496], [43.071907, -89.3945682], [43.0719143, -89.3948056], [43.0720802, -89.3948027], [43.0720979, -89.3957638], [43.0721244, -89.396017], [43.0721106, -89.3965459], [43.0721312, -89.3973272], [43.0723838, -89.397338], [43.0725502, -89.397332], [43.0725578, -89.3976216], [43.0730835, -89.3976121]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var poly_line_b05b8ecc9caf0801c95d506795de9794 = L.polyline(
+                [[43.0718481, -89.3938334], [43.0719125, -89.3938756], [43.0721388, -89.3935318], [43.0722829, -89.3937257], [43.0722902, -89.3937349], [43.0725561, -89.3940618], [43.0730325, -89.3942387], [43.073291, -89.3942044], [43.0733191, -89.3954699], [43.0733184, -89.3957227], [43.0733601, -89.3957213], [43.0738379, -89.3957054], [43.0738678, -89.3957051], [43.0739487, -89.3957042], [43.0744689, -89.3957987], [43.074812, -89.3957911], [43.0748233, -89.3965824], [43.0748327, -89.3972446]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+    
+            var poly_line_ec617faf7783b7858076e3707f78495a = L.polyline(
+                [[43.0718481, -89.3938334], [43.0719125, -89.3938756], [43.0719105, -89.3942496], [43.071907, -89.3945682], [43.0719143, -89.3948056], [43.0720802, -89.3948027], [43.0720979, -89.3957638], [43.0721244, -89.396017], [43.0724039, -89.3959781], [43.0725229, -89.395974], [43.0725937, -89.3959716], [43.0726359, -89.3959701], [43.072799, -89.3959645], [43.0730758, -89.3959566], [43.0733156, -89.3959289], [43.0737229, -89.3959222], [43.0738093, -89.3959213], [43.0740508, -89.395918], [43.0741373, -89.3959163], [43.0744133, -89.3959122]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_1389892c34ea22d308fd5f8f5b4e4125);
+        
+</script>
+</html>
